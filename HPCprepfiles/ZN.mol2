@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+Structure21
+1   0    1
+SMALL
+USER_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 ZN         27.3265    3.9947   70.9428 Zn        1  ZN         2.0000 
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1  ZN         1 GROUP             0 A     ****    0 ROOT    

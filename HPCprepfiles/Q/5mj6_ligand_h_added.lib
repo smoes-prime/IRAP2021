@@ -1,0 +1,229 @@
+#Remarks LigParGen generated for Q (by Leela Dodda and Israel Cabeza de Vaca)
+
+{7O2}
+[atoms]
+       1    H00   H800   0.1525 
+       2    C01   C801  -0.1416 
+       3    C02   C802  -0.1413 
+       4    C03   C803  -0.1384 
+       5    H04   H804   0.1525 
+       6    C05   C805  -0.1483 
+       7    H06   H806   0.1647 
+       8    C07   C807  -0.1388 
+       9    H08   H808   0.1403 
+      10    C09   C809  -0.0938 
+      11    H0A   H810   0.1597 
+      12    C0B   C811  -0.1334 
+      13    C0C   C812  -0.1945 
+      14    H0D   H813   0.0829 
+      15    H0E   H814   0.0829 
+      16    C0F   C815  -0.6686 
+      17    H0G   H816   0.1439 
+      18    H0H   H817   0.1439 
+      19    P0I   P818   2.8744 
+      20    N0J   N819  -0.3917 
+      21    H0K   H820   0.1536 
+      22    C0M   C821  -0.8496 
+      23    O0N   O822  -1.2858 
+      24    O0O   O823  -1.2858 
+      25    H0P   H824   0.3776 
+      26    H0Q   H825   0.3776 
+      27    H0R   H826   0.3776 
+      28    C0S   C827  -0.0823 
+      29    H0T   H828   0.1263 
+      30    H0U   H829   0.1263 
+      31    C0V   C830  -0.1580 
+      32    C0W   C831   0.5917 
+      33    H0X   H832   0.1429 
+      34    C0Y   C833  -0.0248 
+      35    H0Z   H834   0.1082 
+      36    H10   H835   0.1082 
+      37    N11   N836  -1.1016 
+      38    O12   O837  -0.4712 
+      39    C13   C838  -0.0818 
+      40    C14   C839  -0.0732 
+      41    H15   H840   0.0824 
+      42    C16   C841   0.1920 
+      43    H17   H842   0.5315 
+      44    C18   C843  -0.1462 
+      45    C19   C844  -0.1238 
+      46    C1A   C845  -0.1403 
+      47    C1B   C846  -0.1320 
+      48    C1C   C847  -0.1365 
+      49    C1D   C848   0.6335 
+      50    H1E   H849   0.1387 
+      51    H1F   H850   0.1423 
+      52    C1G   C851  -0.1420 
+      53    H1H   H852   0.1522 
+      54    C1I   C853  -0.1401 
+      55    H1J   H854   0.1400 
+      56    C1K   C855  -0.1434 
+      57    H1M   H856   0.1523 
+      58    C1N   C857  -0.1443 
+      59    H1O   H858   0.1495 
+      60    C1P   C859  -0.1488 
+      61    H1Q   H860   0.1504 
+      62    H1R   H861   0.1479 
+      63    C1S   C862  -0.1475 
+      64    H1T   H863   0.1494 
+      65    H1U   H864   0.1419 
+      66    H1V   H865   0.1446 
+      67    C1W   C866  -0.1010 
+      68    H1X   H867   0.1200 
+      69    H1Y   H868   0.1200 
+      70    N1Z   N869  -1.2530 
+      71    O20   O870  -0.4720 
+      72    C21   C871  -0.1393 
+      73    C22   C872  -0.1390 
+      74    H23   H873   0.5269 
+      75    H24   H874   0.5269 
+      76    H25   H875   0.1514 
+      77    C26   C876  -0.1391 
+      78    H27   H877   0.1585 
+      79    C28   C878  -0.1480 
+      80    H29   H879   0.1506 
+      81    C2A   C880  -0.1477 
+      82    H2B   H881   0.1503 
+      83    H2C   H882   0.1473 
+[bonds]
+     C01      H00
+     C02      C01
+     C03      C01
+     H04      C02
+     C05      C02
+     H06      C03
+     C07      C03
+     H08      C05
+     C09      C05
+     H0A      C07
+     C0B      C09
+     C0C      C0B
+     H0D      C0B
+     H0E      C0B
+     C0F      C0C
+     H0G      C0C
+     H0H      C0C
+     P0I      C0F
+     N0J      C0F
+     H0K      C0F
+     C0M      P0I
+     O0N      P0I
+     O0O      P0I
+     H0P      N0J
+     H0Q      N0J
+     H0R      N0J
+     C0S      C0M
+     H0T      C0M
+     H0U      C0M
+     C0V      C0S
+     C0W      C0S
+     H0X      C0S
+     C0Y      C0V
+     H0Z      C0V
+     H10      C0V
+     N11      C0W
+     O12      C0W
+     C13      C0Y
+     C14      C0Y
+     H15      C0Y
+     C16      N11
+     H17      N11
+     C18      C13
+     C19      C13
+     C1A      C14
+     C1B      C14
+     C1C      C16
+     C1D      C16
+     H1E      C16
+     H1F      C18
+     C1G      C18
+     H1H      C19
+     C1I      C19
+     H1J      C1A
+     C1K      C1A
+     H1M      C1B
+     C1N      C1B
+     H1O      C1G
+     C1P      C1G
+     H1Q      C1I
+     H1R      C1K
+     C1S      C1K
+     H1T      C1N
+     H1U      C1P
+     H1V      C1S
+     C1W      C1C
+     H1X      C1C
+     H1Y      C1C
+     N1Z      C1D
+     O20      C1D
+     C21      C1W
+     C22      C1W
+     H23      N1Z
+     H24      N1Z
+     H25      C21
+     C26      C21
+     H27      C22
+     C28      C22
+     H29      C26
+     C2A      C26
+     H2B      C28
+     H2C      C2A
+     C09      C07
+     C1P      C1I
+     C1S      C1N
+     C2A      C28
+[impropers]
+C03   C01   H00   C02 
+C05   C02   C01   H04 
+C07   C03   C01   H06 
+C09   C05   C02   H08 
+H0A   C07   C03   C09 
+C0B   C09   C05   C07 
+H0D   C0B   C09   C0C 
+H0E   C0B   C09   C0C 
+H0G   C0C   C0B   C0F 
+H0H   C0C   C0B   C0F 
+N0J   C0F   C0C   P0I 
+H0K   C0F   C0C   P0I 
+O0N   P0I   C0F   C0M 
+O0O   P0I   C0F   C0M 
+H0Q   N0J   C0F   H0P 
+H0R   N0J   C0F   H0P 
+H0T   C0M   P0I   C0S 
+H0U   C0M   P0I   C0S 
+C0W   C0S   C0M   C0V 
+H0X   C0S   C0M   C0V 
+H0Z   C0V   C0S   C0Y 
+H10   C0V   C0S   C0Y 
+O12   C0W   C0S   N11 
+C14   C0Y   C0V   C13 
+H15   C0Y   C0V   C13 
+H17   N11   C0W   C16 
+C19   C13   C0Y   C18 
+C1B   C14   C0Y   C1A 
+C1D   C16   N11   C1C 
+H1E   C16   N11   C1C 
+C1G   C18   C13   H1F 
+C1I   C19   C13   H1H 
+C1K   C1A   C14   H1J 
+C1N   C1B   C14   H1M 
+C1P   C1G   C18   H1O 
+H1Q   C1I   C19   C1P 
+C1S   C1K   C1A   H1R 
+H1T   C1N   C1B   C1S 
+H1U   C1P   C1G   C1I 
+H1V   C1S   C1K   C1N 
+H1X   C1C   C16   C1W 
+H1Y   C1C   C16   C1W 
+O20   C1D   C16   N1Z 
+C22   C1W   C1C   C21 
+H24   N1Z   C1D   H23 
+C26   C21   C1W   H25 
+C28   C22   C1W   H27 
+C2A   C26   C21   H29 
+H2B   C28   C22   C2A 
+H2C   C2A   C26   C28 
+[charge_groups]
+ H00 C01 C02 C03 H04 C05 H06 C07 H08 C09 H0A C0B C0C H0D H0E C0F H0G H0H P0I N0J H0K C0M O0N O0O H0P H0Q H0R C0S H0T H0U C0V C0W H0X C0Y H0Z H10 N11 O12 C13 C14 H15 C16 H17 C18 C19 C1A C1B C1C C1D H1E H1F C1G H1H C1I H1J C1K H1M C1N H1O C1P H1Q H1R C1S H1T H1U H1V C1W H1X H1Y N1Z O20 C21 C22 H23 H24 H25 C26 H27 C28 H29 C2A H2B H2C
+*------------------------------------------------------------------
+
