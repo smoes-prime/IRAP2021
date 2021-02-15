@@ -1,0 +1,47 @@
+In Pymol, run script IRAP_prep.pml to download, clean, and align the structures. The script also exports a pdb of the structure produced as well as a fasta file for that structure.
+
+In Schrödinger Maestro
+
+Import structures that IRAP_prepalign.pml produces
+
+Open Homology Modelling with Prime
+-click simple viewer
+-Click get pdb, and enter the pdb code you want, and select only chain A (Except for 4z7i, which has part of the ligand listed as chain C)
+-There are two possible options here
+  -Click BLAST homology search to find homology models, usually there is a pdb model with your chain that is a 100% match
+  -Simply import the structure from IRAP_prepalign.py and use that.
+-Click options and check the box for preserve residue numbers from template
+-Click Build model
+
+Combining the two structures
+-Select Protein Chain A from the homology model, and everything except chain A from the template structure.
+  -Before this step it may be necessary to do a protein alignment, click protein Structure Alignment, select both template and homology model so they are both in the workspace, then choose Use proteins from: Workspace, Reference residues = all, and click align, the results alignment should be essentially perfect, confirming our homology model is a perfect match to the determined structure, but with loops added.
+-extract the selected atoms to a new entry
+
+Open Refine Loops: Prime
+-Select the newly created combined structure
+-leave defaults
+-click Find loops in workspace {Non Template}
+-make sure the box is checked next to the loop(s) that are found
+-click Option, and change serial loop sampling to Extended (15-20 subjobs)
+-click run, it'll take quite a while unless your computer is extremely powerful, so now is a good time for a coffee break.
+
+Open Protein Preparation Wizard
+-Go to Import and Process tab
+  -Select your newly built homology model with refined loops in the workspace
+  -Leave defaults checked
+  -Also check box delete waters beyond 5Å from het groups
+  -Click preprocess
+-If there are problems, you can often ignore them until after Hbond optimization, check to ensure they aren't egregious.
+-Click preprocess
+
+Switch to the Refine tab
+- Leave default settings
+Click Optimize
+
+Click Remove waters (beyond 3Å)
+
+Click Minimize
+
+Now the structures can be exported from Maestro as pdbs and used in GROMACS
+Note, structures with ligands require additional steps before they are ready for GROMACS.
